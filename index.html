@@ -106,10 +106,22 @@ footer a:hover{color:var(--cyan)}
   .foot-grid{grid-template-columns:1fr 1fr}
   .nav-links{display:none}
   .menu-btn{display:block}
-  .hero h1{font-size:34px}
+  .hero h1{font-size:32px;line-height:1.18}
+  .sec-head h2{font-size:28px}
+  .why h2,.cta-band h2{font-size:27px}
   section{padding:60px 0}
   #contato .wrap{grid-template-columns:1fr!important}
 }
+@media(max-width:560px){
+  .wrap{padding:0 18px}
+  .foot-grid{grid-template-columns:1fr;gap:26px}
+  .trust-grid{gap:18px 26px}
+  .hero h1{font-size:28px}
+  .sec-head p,.hero p{font-size:16px}
+  #contato h2{font-size:26px!important}
+}
+footer a{word-break:break-word}
+.hero h1,.sec-head h2,.why h2,.cta-band h2,.card h3,.step h3{overflow-wrap:break-word;hyphens:auto}
 </style>
 </head>
 <body>
@@ -124,9 +136,10 @@ footer a:hover{color:var(--cyan)}
       </svg>
     </a>
     <nav class="nav-links">
-      <a href="#servicos">Serviços</a>
-      <a href="#porque">Por que a Liberserv</a>
+      <a href="#porque">Sobre nós</a>
+      <a href="#servicos">Soluções</a>
       <a href="#como">Como funciona</a>
+      <a href="blog.html">Blog</a>
       <a href="#contato">Contato</a>
       <a href="#contato" class="btn btn-primary" style="padding:10px 20px">Agendar exame</a>
     </nav>
@@ -144,7 +157,7 @@ footer a:hover{color:var(--cyan)}
       <p>Gestão completa de PCMSO, PGR, exames ocupacionais e eSocial SST em uma plataforma digital — com a confiança de mais de três décadas de experiência.</p>
       <div class="hero-cta">
         <a href="#contato" class="btn btn-primary">Agendar exame online</a>
-        <a href="#servicos" class="btn btn-ghost">Ver serviços</a>
+        <a href="#servicos" class="btn btn-ghost">Ver soluções</a>
       </div>
     </div>
     <div class="hero-visual">
@@ -168,20 +181,20 @@ footer a:hover{color:var(--cyan)}
 <section id="servicos">
   <div class="wrap">
     <div class="sec-head">
-      <div class="kick">Nossos serviços</div>
+      <div class="kick">Nossas soluções</div>
       <h2>Tudo o que a sua empresa precisa em saúde ocupacional</h2>
       <p>Da gestão dos programas legais aos exames do dia a dia — em um só lugar, com tecnologia e atendimento próximo.</p>
     </div>
     <div class="cards">
       <div class="card"><div class="ic">▤</div><h3>PCMSO</h3><p>Programa de Controle Médico de Saúde Ocupacional elaborado e gerido conforme a NR-07, integrado ao seu PGR.</p></div>
       <div class="card"><div class="ic">⚠</div><h3>PGR</h3><p>Programa de Gerenciamento de Riscos (NR-01) com inventário de riscos e plano de ação, conectado ao PCMSO.</p></div>
-      <div class="card"><div class="ic">✚</div><h3>Exames ocupacionais</h3><p>Admissional, periódico, retorno ao trabalho, mudança de função e demissional, com rede de apoio e clínica própria.</p></div>
+      <div class="card"><div class="ic">✚</div><h3>Exames ocupacionais</h3><p>Admissional, periódico, retorno ao trabalho, mudança de função e demissional, com rede de apoio e atendimento in company.</p></div>
       <div class="card"><div class="ic">◉</div><h3>ASO digital</h3><p>Atestado de Saúde Ocupacional emitido digitalmente e com envio automático do evento S-2220 ao eSocial.</p></div>
       <div class="card"><div class="ic">⌁</div><h3>Consultoria e treinamentos em SST</h3><p>Apoio técnico, treinamentos de NRs e orientação para manter a sua empresa segura e em conformidade.</p></div>
       <div class="card"><div class="ic">⌗</div><h3>Gestão do eSocial SST</h3><p>Envio e monitoramento dos eventos S-2210, S-2220 e S-2240, evitando autuações e inconsistências.</p></div>
       <div class="card"><div class="ic">▦</div><h3>Laudos técnicos</h3><p>LTCAT, laudos de insalubridade e periculosidade e PPP, com respaldo técnico para fiscalizações.</p></div>
       <div class="card"><div class="ic">♥</div><h3>Programas de bem-estar</h3><p>Campanhas de saúde, vacinação e qualidade de vida para reduzir absenteísmo e cuidar do seu time.</p></div>
-      <div class="card"><div class="ic">▣</div><h3>Portal do cliente</h3><p>Agendamento, acompanhamento de exames e relatórios de conformidade online, 24 horas por dia.</p></div>
+      <div class="card"><div class="ic">▣</div><h3>Portal do cliente</h3><p>Agendamento, acompanhamento de exames e relatórios de conformidade online.</p></div>
     </div>
   </div>
 </section>
@@ -238,7 +251,7 @@ footer a:hover{color:var(--cyan)}
       <p style="margin-bottom:12px"><b style="font-family:Poppins;color:var(--navy)">Telefone:</b> <a href="tel:+551122151311" style="color:var(--blue)">(11) 2215-1311</a></p>
       <p style="margin-bottom:12px"><b style="font-family:Poppins;color:var(--navy)">WhatsApp:</b> <a href="https://wa.me/5511988876733" style="color:var(--blue)">(11) 98887-6733</a></p>
       <p style="margin-bottom:12px"><b style="font-family:Poppins;color:var(--navy)">E-mail:</b> <a href="mailto:comercial@liberass.com.br" style="color:var(--blue)">comercial@liberass.com.br</a></p>
-      <p><b style="font-family:Poppins;color:var(--navy)">Horário:</b> Seg a Sex, 7h às 17h</p>
+      <p><b style="font-family:Poppins;color:var(--navy)">Horário:</b> Seg a Sex, 8h às 18h</p>
     </div>
     <form id="formContato" style="background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px" onsubmit="return enviarEmail(event)">
       <label style="font-size:14px;font-weight:600;color:var(--navy);font-family:Poppins">Nome</label>
@@ -264,8 +277,16 @@ footer a:hover{color:var(--cyan)}
           <text x="62" y="42" font-family="Poppins,sans-serif" font-weight="700" font-size="32" letter-spacing="1" fill="#fff">LIBER<tspan font-weight="500" fill="#00B5C4">SERV</tspan></text>
         </svg>
         <p style="max-width:300px">Medicina e saúde ocupacional há mais de 30 anos. Conformidade, tecnologia e cuidado com quem trabalha.</p>
+        <div style="display:flex;gap:12px;margin-top:18px">
+          <a href="https://www.instagram.com/grupoliberserv" target="_blank" rel="noopener" aria-label="Instagram" style="display:flex;margin:0;width:42px;height:42px;border-radius:10px;border:1px solid rgba(255,255,255,.22);align-items:center;justify-content:center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.6" cy="6.4" r="1.3" fill="#fff" stroke="none"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/liberserv/posts/?feedView=all" target="_blank" rel="noopener" aria-label="LinkedIn" style="display:flex;margin:0;width:42px;height:42px;border-radius:10px;border:1px solid rgba(255,255,255,.22);align-items:center;justify-content:center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.2 8.2h4.6V24H.2V8.2zM8.2 8.2h4.4v2.16h.06c.61-1.1 2.1-2.26 4.32-2.26 4.62 0 5.47 3.04 5.47 7v8.9h-4.6v-7.9c0-1.88-.03-4.3-2.62-4.3-2.62 0-3.02 2.05-3.02 4.16V24H8.2V8.2z"/></svg>
+          </a>
+        </div>
       </div>
-      <div><h4>Serviços</h4><a href="#servicos">PCMSO</a><a href="#servicos">PGR</a><a href="#servicos">Exames ocupacionais</a><a href="#servicos">eSocial SST</a></div>
+      <div><h4>Soluções</h4><a href="#servicos">PCMSO</a><a href="#servicos">PGR</a><a href="#servicos">Exames ocupacionais</a><a href="#servicos">eSocial SST</a></div>
       <div><h4>Empresa</h4><a href="#porque">Sobre nós</a><a href="#como">Como funciona</a><a href="#contato">Trabalhe conosco</a><a href="#contato">Contato</a></div>
       <div><h4>Atendimento</h4><a href="tel:+551122151311">(11) 2215-1311</a><a href="https://wa.me/5511988876733">WhatsApp (11) 98887-6733</a><a href="mailto:comercial@liberass.com.br">comercial@liberass.com.br</a></div>
     </div>
