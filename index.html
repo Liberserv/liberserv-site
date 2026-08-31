@@ -297,6 +297,13 @@ footer a{word-break:break-word}
   </div>
 </footer>
 
+<!-- Botão flutuante WhatsApp -->
+<a href="https://wa.me/5511956880102?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Liberserv." target="_blank" rel="noopener" aria-label="Fale conosco pelo WhatsApp" style="position:fixed;right:22px;bottom:22px;z-index:9999;width:60px;height:60px;border-radius:50%;background:#25D366;box-shadow:0 6px 18px rgba(0,0,0,.28);display:flex;align-items:center;justify-content:center;text-decoration:none;transition:transform .2s ease" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+  <span style="position:absolute;width:100%;height:100%;border-radius:50%;background:#25D366;opacity:.55;animation:wppulse 2s infinite"></span>
+  <svg width="34" height="34" viewBox="0 0 32 32" fill="#fff" style="position:relative"><path d="M16.04 4C9.9 4 4.9 9 4.9 15.14c0 2.17.63 4.19 1.72 5.9L4.5 28l7.14-2.06a11.1 11.1 0 0 0 4.4.9h.01c6.14 0 11.14-5 11.14-11.14C27.19 9 22.18 4 16.04 4zm0 20.4h-.01c-1.35 0-2.68-.36-3.83-1.05l-.27-.16-4.24 1.22 1.24-4.13-.18-.28a9.2 9.2 0 0 1-1.4-4.86c0-5.09 4.15-9.24 9.25-9.24 2.47 0 4.79.96 6.54 2.71a9.2 9.2 0 0 1 2.71 6.54c0 5.1-4.15 9.25-9.25 9.25zm5.08-6.93c-.28-.14-1.65-.81-1.9-.9-.26-.1-.44-.14-.63.14-.19.28-.72.9-.88 1.09-.16.19-.32.21-.6.07-.28-.14-1.18-.43-2.24-1.38-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.32.42-.49.14-.16.19-.28.28-.47.09-.19.05-.35-.02-.49-.07-.14-.63-1.51-.86-2.07-.23-.55-.46-.47-.63-.48l-.54-.01c-.19 0-.49.07-.75.35-.26.28-.98.96-.98 2.33s1 2.71 1.15 2.9c.14.19 1.97 3.01 4.77 4.22.67.29 1.19.46 1.6.59.67.21 1.28.18 1.76.11.54-.08 1.65-.67 1.88-1.32.23-.65.23-1.2.16-1.32-.07-.12-.26-.19-.54-.33z"/></svg>
+</a>
+<style>@keyframes wppulse{0%{transform:scale(1);opacity:.55}70%{transform:scale(1.6);opacity:0}100%{opacity:0}}</style>
+
 <script>
 document.querySelector('.menu-btn').addEventListener('click',function(){
   var n=document.querySelector('.nav-links');
